@@ -1,0 +1,22 @@
+name: facecrop
+description: A sample command-line application.
+version: 1.0.0
+repository: https://github.com/my_org/my_repo
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+dependencies:
+  path: ^1.8.0
+  args: ^2.4.2
+  properties: ^2.1.0
+  dart_openai: ^3.0.0
+  serviced: ^1.0.1
+  fast_log: ^1.0.5
+  toxic: ^1.0.3
+  precision_stopwatch: ^1.0.2
+  googleapis: ^11.2.0
+  googleapis_auth: ^1.1.0
+  http: ^0.13.6
+  image: ^4.0.17
+dev_dependencies:
+  lints: ^2.1.1
+  test: ^1.24.4
